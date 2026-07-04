@@ -19,6 +19,7 @@ This public GitHub repo, is required for documented remote_theme workflow.
 
 ## Structure
 
+```
 jekyll-tailwind-platform/
 ├── README.md
 ├── docs/
@@ -69,7 +70,7 @@ jekyll-tailwind-platform/
 │   └── diff-theme-overrides.sh
 └── examples/
     └── pilot-site/
-
+```
 
 
 
