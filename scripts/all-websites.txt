@@ -7,11 +7,7 @@ http://gitea.ms2022:3003/mattharg/sweng.itchy.studio
 http://gitea.ms2022:3003/mattharg/smallchurchmusic.nettracks.org
 http://gitea.ms2022:3003/mattharg/petpamperers.itchy.studio
 http://gitea.ms2022:3003/mattharg/cf.itchy.studio
-http://gitea.ms2022:3003/mattharg/MyStaticWebsites
-http://gitea.ms2022:3003/mattharg/operations.epatterns.com.au
-http://gitea.ms2022:3003/mattharg/architecture.epatterns.com.au
 http://gitea.ms2022:3003/mattharg/mattharg.itchy.studio
-http://gitea.ms2022:3003/mattharg/website-www-itchy-studio
 
 
 
