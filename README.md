@@ -221,22 +221,33 @@ and moved (or will move) to
 
 ### Target Websites
 
-http://gitea.ms2022:3003/mattharg/architecture.itchy.studio
-http://gitea.ms2022:3003/mattharg/wendy-hargreaves.itchy.studio
-http://gitea.ms2022:3003/mattharg/www.itchy.studio
-http://gitea.ms2022:3003/mattharg/ai.itchy.studio
-http://gitea.ms2022:3003/mattharg/the-bright-red-kite.itchy.studio
-http://gitea.ms2022:3003/mattharg/sweng.itchy.studio
-http://gitea.ms2022:3003/mattharg/petpamperers.itchy.studio
-http://gitea.ms2022:3003/mattharg/cf.itchy.studio
-http://gitea.ms2022:3003/mattharg/mattharg.itchy.studio
+http://gitea.ms2022:3003/mattharg/architecture.itchy.studio 
 
-http://gitea.ms2022:3003/mattharg/www.nettracks.org
+http://gitea.ms2022:3003/mattharg/wendy-hargreaves.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/www.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/ai.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/the-bright-red-kite.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/sweng.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/petpamperers.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/cf.itchy.studio 
+
+http://gitea.ms2022:3003/mattharg/mattharg.itchy.studio 
+
+
+http://gitea.ms2022:3003/mattharg/www.nettracks.org 
+
 http://gitea.ms2022:3003/mattharg/smallchurchmusic.nettracks.org
 
 # Scheduled For Migration to Itchy Studio domain
 
-http://gitea.ms2022:3003/mattharg/operations.epatterns.com.au
+http://gitea.ms2022:3003/mattharg/operations.epatterns.com.au 
+
 http://gitea.ms2022:3003/mattharg/architecture.epatterns.com.au
 
 # Special Cases Repos. 
