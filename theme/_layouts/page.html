@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<section class="py-12 md:py-16">
+  <div class="mx-auto max-w-4xl px-6">
+    {% if page.title %}
+      <header class="mb-10 border-b border-slate-200 pb-6">
+        <h1 class="text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
+          {{ page.title }}
+        </h1>
+      </header>
+    {% endif %}
+
+    <div class="prose prose-slate max-w-none">
+      {{ content }}
+    </div>
+  </div>
+</section>
+
