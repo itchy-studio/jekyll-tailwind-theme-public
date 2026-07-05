@@ -1,0 +1,31 @@
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: itchy.studio/jekyll-tailwind-theme-public@v0.1.0
+
+title: Example Site
+description: Example description
+url: https://example.itchy.studio
+baseurl: ""
+
+theme_settings:
+  style_variant: default
+  accent: teal
+  dark_mode: true
+  compact_header: false
+  ads_enabled: false
+  logo_text: Example Site
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Tools
+    url: /tools/
+
+footer_links:
+  - title: Privacy
+    url: /privacy/
+  - title: Contact
+    url: /contact/
