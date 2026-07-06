@@ -1,15 +1,17 @@
-<header class="border-b border-slate-200 bg-white/90 backdrop-blur">
-  <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-    <a href="{{ '/' | relative_url }}" class="text-lg font-semibold tracking-tight text-slate-900">
-      {{ site.title }}
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}">
+      <span class="site-brand__name">{{ site.title | default: "Itchy Studios" }}</span>
     </a>
 
-    <nav class="hidden gap-6 text-sm font-medium text-slate-600 md:flex">
-      <a class="transition hover:text-slate-900" href="{{ '/' | relative_url }}">Home</a>
-      <a class="transition hover:text-slate-900" href="{{ '/about' | relative_url }}">About</a>
-      <a class="transition hover:text-slate-900" href="{{ '/projects' | relative_url }}">Projects</a>
-      <a class="transition hover:text-slate-900" href="{{ '/contact' | relative_url }}">Contact</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/projects/' | relative_url }}">Projects</a>
+      <a href="{{ '/about/' | relative_url }}">About</a>
+      <a class="site-nav__cta" href="{{ '/contact/' | relative_url }}">Contact</a>
     </nav>
   </div>
 </header>
+
+
 
