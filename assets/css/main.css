@@ -14,10 +14,11 @@ body {
   --font-heading: "Cormorant Garamond", Georgia, serif;
   --font-body: "Inter", "Helvetica Neue", Arial, sans-serif;
 
-  --color-text: #0f172a;
-  --color-muted: #475569;
-  --color-accent: #0f766e;
-  --color-border: #e2e8f0;
+  --color-text:    #334155;
+  --color-heading: #475569;
+  --color-muted:   #475569;
+  --color-accent:  #0f766e;
+  --color-border:  #e2e8f0;
   --color-surface: #ffffff;
   --color-surface-muted: #f8fafc;
 }
@@ -38,7 +39,7 @@ h1, h2, h3, h4, .site-brand__name {
   font-family: var(--font-heading);
   font-weight: 600;
   letter-spacing: -0.03em;
-  color: var(--color-text);
+  color: var(--color-heading);
 }
 
 p, li, a, span, input, textarea, button {
@@ -56,10 +57,20 @@ p, li, a, span, input, textarea, button {
 }
 
 
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 74px;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
 
 .site-brand {
-  text-decoration: none;
-  color: inherit;
+  flex: 0 0 auto;
 }
 
 .site-brand__name {
@@ -70,9 +81,11 @@ p, li, a, span, input, textarea, button {
 .site-nav {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-left: auto;
+  flex-wrap: nowrap;
 }
+
 
 .site-nav a {
   color: var(--color-muted);
