@@ -1,6 +1,10 @@
+{% assign footer_tagline = site.theme_settings.footer_tagline | default: "Software engineering for modern products." %}
+
 <footer class="site-footer">
-  <div class="container">
-    <p>&copy; {{ "now" | date: "%Y" }} Itchy Studios. Software engineering for modern products.</p>
+  <div class="site-footer__inner">
+    <p>© {{ "now" | date: "%Y" }} {{ site.theme_settings.company_name | default: "Itchy Studios" }}. {{ footer_tagline }}</p>
   </div>
 </footer>
+
+
 

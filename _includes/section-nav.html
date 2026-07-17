@@ -1,0 +1,20 @@
+{% assign nav_title = include.title | default: "In this section" %}
+{% assign nav_items = include.items | split: "|" %}
+
+<nav class="section-nav" aria-labelledby="section-nav-title">
+  <div class="section-nav__inner">
+    <p id="section-nav-title" class="section-nav__eyebrow">{{ nav_title }}</p>
+    <ul class="section-nav__list">
+      {% for item in nav_items %}
+        {% assign parts = item | split: "::" %}
+        {% assign label = parts[0] | strip %}
+        {% assign url = parts[1] | strip %}
+        <li class="section-nav__item">
+          <a class="section-nav__link" href="{{ url }}">{{ label }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+
