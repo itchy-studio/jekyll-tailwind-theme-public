@@ -1,0 +1,28 @@
+<article class="service-card">
+  {% if include.image %}
+    <div class="service-card__media">
+      <img src="{{ include.image }}" alt="{{ include.image_alt | default: '' }}" loading="lazy">
+    </div>
+  {% endif %}
+
+  <div class="service-card__body">
+    {% if include.title %}
+      <h2>{{ include.title }}</h2>
+    {% endif %}
+
+    {% if include.text %}
+      <p>{{ include.text }}</p>
+    {% endif %}
+
+    {% if include.points %}
+      {% assign points = include.points | split: "|" %}
+      <ul>
+        {% for point in points %}
+          <li>{{ point | strip }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</article>
+
+

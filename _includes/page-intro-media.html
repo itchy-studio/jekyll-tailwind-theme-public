@@ -1,0 +1,10 @@
+{% assign intro_media_class = "page-intro-media" %}
+{% if include.wide == "true" %}
+  {% assign intro_media_class = "page-intro-media page-intro-media--wide" %}
+{% endif %}
+
+<div class="{{ intro_media_class }}">
+  <img src="{{ include.image }}" alt="{{ include.image_alt | default: '' }}" loading="lazy">
+</div>
+
+

@@ -1,0 +1,32 @@
+<section class="hero-split">
+  <div class="hero-split__content">
+    {% if include.eyebrow %}
+      <p class="hero-split__eyebrow">{{ include.eyebrow }}</p>
+    {% endif %}
+
+    {% if include.heading %}
+      <h2>{{ include.heading }}</h2>
+    {% endif %}
+
+    {% if include.text %}
+      <p>{{ include.text }}</p>
+    {% endif %}
+
+    <div class="hero-split__actions">
+      {% if include.primary_url and include.primary_label %}
+        <a class="button" href="{{ include.primary_url }}">{{ include.primary_label }}</a>
+      {% endif %}
+      {% if include.secondary_url and include.secondary_label %}
+        <a class="button button--secondary" href="{{ include.secondary_url }}">{{ include.secondary_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if include.image %}
+    <div class="hero-split__media">
+      <img src="{{ include.image }}" alt="{{ include.image_alt | default: '' }}" loading="eager">
+    </div>
+  {% endif %}
+</section>
+
+

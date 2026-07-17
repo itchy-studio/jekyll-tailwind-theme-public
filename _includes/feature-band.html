@@ -1,0 +1,19 @@
+<section class="feature-band {% if include.reverse == 'true' %}feature-band--reverse{% endif %}">
+  {% if include.image %}
+    <div class="feature-band__media">
+      <img src="{{ include.image }}" alt="{{ include.image_alt | default: '' }}" loading="lazy">
+    </div>
+  {% endif %}
+
+  <div class="feature-band__content">
+    {% if include.title %}
+      <h3>{{ include.title }}</h3>
+    {% endif %}
+
+    {% if include.text %}
+      <p>{{ include.text }}</p>
+    {% endif %}
+  </div>
+</section>
+
+

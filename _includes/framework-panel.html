@@ -1,0 +1,22 @@
+<details class="framework-panel" {% if include.open == "true" %}open{% endif %}>
+  <summary class="framework-panel__summary">
+    {% if include.image %}
+      <span class="framework-panel__thumb">
+        <img src="{{ include.image }}" alt="{{ include.image_alt | default: '' }}" loading="lazy">
+      </span>
+    {% endif %}
+
+    <span class="framework-panel__title-group">
+      <span class="framework-panel__title">{{ include.title }}</span>
+      {% if include.meta %}
+        <span class="framework-panel__meta">{{ include.meta }}</span>
+      {% endif %}
+    </span>
+  </summary>
+
+  <div class="framework-panel__content">
+    {{ include.content }}
+  </div>
+</details>
+
+
